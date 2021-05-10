@@ -25,7 +25,7 @@ function addResult() {
 
 function moveMole() {
 	let timerId = null;
-	timerId = setInterval(randomSquare, 800);
+	timerId = setInterval(randomSquare, 500);
 }
 
 moveMole();
